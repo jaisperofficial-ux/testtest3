@@ -214,7 +214,12 @@ function Dashboard(){
   return (
     <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
       <Card className="xl:col-span-2">
-        <CardHeader className="pb-2"><CardTitle className="text-base flex items-center gap-2"><LineChartIcon className="h-5 w-5"/>Revenue Overview</CardTitle></CardHeader>
+<CardHeader className="pb-2">
+  <CardTitle className="text-base flex items-center gap-2">
+    <LineChartIcon className="h-5 w-5" />
+    Revenue Overview
+  </CardTitle>
+</CardHeader>
         <CardContent>
           <div className="h-72">
             <ResponsiveContainer width="100%" height="100%">
